@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta chartset="UTF-8">
+    <!-- title-->
+    <title>Covid-19 in USA</title>
+</head>
+<!-- css style-->
+<link rel ="stylesheet" href ="style.css">
+<body>
+    <!-- create element for image background-->
+    <div class="tim">
+        <h1>COVID-19 IN USA</h1>
+    </div>
+    <!-- create tage for navegator bar-->
+    <div class="navbar">
+        <!-- class hyerlink for scrolling section-->
+        <a href="#section1"><b>Confirmed cases</b></a> 
+        <a href="#section2"><b>Numner of Death</b></a> 
+        <a href="#section3"><b>COVID19 Vulnerability</b></a> 
+    </div>
+    <!-- link to section 1 -->
+    <div id="section1">
+        <!-- section 1 header and paragraph-->
+        <h2>Confirmed cases of COVID-19</h2>
+        <p> US still remains worst hit and global deathly of COVID19 outbreak, since the first 
+            confirmed case reported in Jan 21, more than 1.4 million people in the U.S have confirmed 
+            cases of COVID-19 on May 15.</p>
+        <p> The map shows confirmed cases in counties across the U.S states where New York, New Jersey, 
+            Illinois, California, Massachusetts, Pennsylvania, Texas, and Florida are among states that
+            have highest cases. </p>
+    </div>
+    <div class=resp-container>
+        <!-- embede arcgis map -->
+        <iframe class=resp-iframe src='http://birkbeck.maps.arcgis.com/apps/View/index.html?appid=e1365cb4b8294adeb1941b9880036d3d&extent=-163.8759,7.2828,-37.3134,61.9425'></iframe>
+    </div>
+    <!-- create element for embeding line chart-->
+    <div class="flourish-embed flourish-chart" data-src="visualisation/2544166" data-url="https://flo.uri.sh/visualisation/2544166/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    </div>
+    <!-- link to section 2-->
+    <div id ="section2">
+        <!-- section 2 header and paragraph-->
+        <h3>Number of Death by COVID-19</h3>
+        <p> Since the first death from COVID19 reported in February in the U.S and number 
+            of Deaths has been gradually increasing in March and is now a epicentre of the
+             pandemic.</pa>
+        <p> On May 15, 85,409 deaths were reported in The U.S. New York city, New York state, 
+            New Jersey, California, Florida still remain at the highest deaths reported. </p>
+    </div>
+    <!-- create element link for embeding link chart -->
+    <div class="flourish-embed flourish-chart" data-src="visualisation/2544861" data-url="https://flo.uri.sh/visualisation/2544861/embed"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    <!-- link to section3-->
+    <div id="section3">
+        <!-- section 3 header and paragraph-->
+        <h4> COVID19 Vulnerability</h4>
+        <p> Map of COVID-19 vulnerability is index score for the US' 500 largest cities. This is based 
+            on key underlying health and demographic indicators that have been identified as risk 
+            factors for developing severe illness, complications, and death as a result of the virus,
+            which show in the map from low index that is more vulnerable to less vulnerable </p>
+    </div>
+    <!-- elemenet to emded arcgis map-->
+    <iframe width='100%' height='640px' src='http://birkbeck.maps.arcgis.com/apps/View/index.html?appid=daba04365eb642f7a03bcc7ecd0d340d&extent=-158.5014,8.2250,-31.9389,62.3865' frameborder='0' scrolling='no'></iframe>
+    <h2></h2>
+</body>
+</html>
+
+  
